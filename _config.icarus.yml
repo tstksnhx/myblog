@@ -51,7 +51,7 @@ head:
         image: 
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 
+        site_name: ds
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
         author: 
@@ -105,11 +105,11 @@ head:
 navbar:
     # Navigation menu items
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        主页: /
+        笔记: /archives
+        分类: /categories
+        标签: /tags
+        TSTK: /html/about.html
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
@@ -226,36 +226,30 @@ widgets:
     # Profile widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: profile
         # Author name
-        author: Your name
+        author: TSTKSnhx
         # Author title
-        author_title: Your title
+        author_title: some
         # Author's current location
-        location: Your location
+        location: 中国
         # URL or path to the avatar image
-        avatar: 
+        avatar: /img/1.jpg
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: https://github.com/ppoffice
+        follow_link: https://github.com/tstksnhx
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: https://github.com/ppoffice
-            Facebook:
-                icon: fab fa-facebook
-                url: https://facebook.com
+                url: https://github.com/tstksnhx
             Twitter:
                 icon: fab fa-twitter
-                url: https://twitter.com
-            Dribbble:
-                icon: fab fa-dribbble
-                url: https://dribbble.com
+                url: https://orcid.org/0000-0002-9572-6984
             RSS:
                 icon: fas fa-rss
                 url: /
@@ -278,7 +272,8 @@ widgets:
         # Names and URLs of the sites
         links:
             Hexo: https://hexo.io
-            Bulma: https://bulma.io
+            bilibili: https://space.bilibili.com/299973729?spm_id_from=333.1007.0.0
+            Yaxing: https://yaxing97.com
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -290,10 +285,10 @@ widgets:
         position: left
         type: recent_posts
     # Archives widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: archives
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: archives
     # Tags widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
