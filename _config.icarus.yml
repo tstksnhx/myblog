@@ -3,7 +3,7 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: https://s3.bmp.ovh/imgs/2023/03/19/44d34ea1f2d26a8f.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -19,7 +19,7 @@ head:
         # The start URL of the web application
         start_url: 
         # The default theme color for the application
-        theme_color: 
+        theme_color: green
         # A placeholder background color for the application page to display
         # before its stylesheet is loaded
         background_color: 
@@ -164,10 +164,10 @@ search:
     index_pages: true
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-comment:
-    type: disqus
-    # Disqus shortname
-    shortname: ''
+# comment:
+#     type: disqus
+#     # Disqus shortname
+#     shortname: ''
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
@@ -180,7 +180,7 @@ donates:
     -
         type: alipay
         # Alipay qrcode image URL
-        qrcode: ''
+        qrcode: 'https://s3.bmp.ovh/imgs/2023/03/19/aefa5aae8fd1e5e7.jpg'
     # "Buy me a coffee" donate button configurations
     -
         type: buymeacoffee
@@ -192,12 +192,12 @@ donates:
         # URL to the Patreon page
         url: ''
     # Paypal donate button configurations
-    -
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
+    # -
+    #     type: paypal
+    #     # Paypal business ID or email address
+    #     business: ''
+    #     # Currency code
+    #     currency_code: USD
     # Wechat donate button configurations
     -
         type: wechat
@@ -208,7 +208,7 @@ donates:
 share:
     type: sharethis
     # URL to the ShareThis share plugin script
-    install_url: ''
+    install_url: 'baidu.com'
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -231,11 +231,11 @@ widgets:
         # Author name
         author: TSTKSnhx
         # Author title
-        author_title: some
+        author_title: 谁能告诉我，有没有这样的笔
         # Author's current location
-        location: 中国
+        # location: 中国，浙江
         # URL or path to the avatar image
-        avatar: /img/1.jpg
+        avatar: https://s3.bmp.ovh/imgs/2023/03/19/48182ccb3bdeb9ff.jpg
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
@@ -271,8 +271,8 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: https://hexo.io
-            bilibili: https://space.bilibili.com/299973729?spm_id_from=333.1007.0.0
+            ORCID: https://orcid.org/0000-0002-9572-6984
+            佚色-哔哩哔哩: https://space.bilibili.com/299973729?spm_id_from=333.1007.0.0
             Yaxing: https://yaxing97.com
     # Categories widget configurations
     -
