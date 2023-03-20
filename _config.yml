@@ -62,3 +62,5 @@ ignore: null
 theme: icarus
 deploy:
   type: ''
+  # repo: git@github.com:tstksnhx/myblog.git
+  # branch: main
