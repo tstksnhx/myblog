@@ -243,16 +243,16 @@ widgets:
         # URL or path for the follow button
         follow_link: https://github.com/tstksnhx
         # Links to be shown on the bottom of the profile widget
-        social_links:
-            Github:
-                icon: fab fa-github
-                url: https://github.com/tstksnhx
-            Twitter:
-                icon: fab fa-twitter
-                url: https://orcid.org/0000-0002-9572-6984
-            RSS:
-                icon: fas fa-rss
-                url: /
+        # social_links:
+        #     Github:
+        #         icon: fab fa-github
+        #         url: https://github.com/tstksnhx
+        #     Twitter:
+        #         icon: fab fa-twitter
+        #         url: https://orcid.org/0000-0002-9572-6984
+        #     RSS:
+        #         icon: fas fa-rss
+        #         url: /
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
