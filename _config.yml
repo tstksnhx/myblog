@@ -5,8 +5,8 @@ keywords: null
 author: 百年树袋熊
 language: zh-CN
 timezone: ''
-url: http://example.com
-permalink: ':year/:month/:day/:title/'
+url: http://tstksnhx.cn
+permalink: ':title/'
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
